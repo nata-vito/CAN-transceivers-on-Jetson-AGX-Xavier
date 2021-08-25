@@ -42,7 +42,7 @@ AGX Xavier's doors are referenced by the image below or access the [site](https:
 
 
 <p align="center">
-  <img width="460" height="300" src="/img/image.png">
+  <img width="auto" height="auto" src="/img/image.png">
 </p>
 </br>
 

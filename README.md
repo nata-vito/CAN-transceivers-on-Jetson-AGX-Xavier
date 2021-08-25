@@ -14,9 +14,9 @@
 
 This mode can be found in the upper right corner of the screen, in the power mode options, the image below shows where these options are.
 
-<center>
+
 ![image5_9](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3231/Tegra%20Linux%20Driver%20Package%20Development%20Guide/images/image5_9.png)
-</center>
+
 
 To perform the installation and configuration of the CAN transceivers, you must enter root mode on the AGX Xavier board to perform the modifications with privileges. Root mode is accessed by the command:
 

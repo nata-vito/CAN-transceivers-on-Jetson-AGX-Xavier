@@ -262,19 +262,7 @@ Finally, to monitor, open another terminal and run the command and select the ch
 
 
 
-For more details, I recommend reading the documentation listed here, which are the references that I used to develop these steps.
-
-[CAN (Controller Area Network)](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra_Linux_Driver_Package Development_Guide/hw_setup_jetson_can.html)
-
-[NVIDIA Jetson AGX Xavier GPIO Header Pinout](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/)
-
-[Pinmux Settings](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-325/index.html#page/Tegra Linux Driver Package Development Guide/mb1_platform_config_xavier.html#wwpID0E0240HA)
-
-[Pinmux Forum](https://forums.developer.nvidia.com/t/change-boot-pinmux-settings-without-full-flash/170392)
-
-[Jetson-IO Tool](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra Linux Driver Package Development Guide/hw_setup_jetson_io.html#wwpID0E0ZE0HA)
-
-
+For more details, I recommend reading the documentation about.
 
 ---
 

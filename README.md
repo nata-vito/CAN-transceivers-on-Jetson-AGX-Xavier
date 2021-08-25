@@ -15,7 +15,7 @@
 This mode can be found in the upper right corner of the screen, in the power mode options, the image below shows where these options are.
 
 
-![image5_9](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3231/Tegra%20Linux%20Driver%20Package%20Development%20Guide/images/image5_9.png)
+![Power Modes](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3231/Tegra%20Linux%20Driver%20Package%20Development%20Guide/images/image5_9.png)
 
 
 To perform the installation and configuration of the CAN transceivers, you must enter root mode on the AGX Xavier board to perform the modifications with privileges. Root mode is accessed by the command:
@@ -39,7 +39,7 @@ Confirm that the channels are not active with the ```ifconfig``` command, which 
 AGX Xavier's doors are referenced by the image below or access the [site](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/) to see the table in better quality.
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858565-2b0418d3-a567-4f01-9807-88119b6854ab.png) ![image](https://user-images.githubusercontent.com/64169072/130858618-78ae7f7e-3608-4fac-9adf-d0d78b2587d6.png)
+![Pins map](https://user-images.githubusercontent.com/64169072/130858565-2b0418d3-a567-4f01-9807-88119b6854ab.png) ![Pin Map](https://user-images.githubusercontent.com/64169072/130858618-78ae7f7e-3608-4fac-9adf-d0d78b2587d6.png)
 
 
 
@@ -47,7 +47,7 @@ Connect the transceivers according to the image below, tx to tx and rx to rx. I 
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858690-c08a59e9-c07c-4f21-9daa-5db7a2fffe88.png)
+![CAN Transceivers conectors](https://user-images.githubusercontent.com/64169072/130858690-c08a59e9-c07c-4f21-9daa-5db7a2fffe88.png)
 
 
 
@@ -122,7 +122,7 @@ The interface will be opened and you will see the screen below.
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858841-db16dc0f-ca5d-4f0c-b529-36d161671113.png)
+![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858841-db16dc0f-ca5d-4f0c-b529-36d161671113.png)
 
 
 
@@ -130,7 +130,7 @@ Use the up, down and enter arrows to navigate between options. Select "Configure
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858884-9f1c881b-839c-44fc-8e5f-8f8d5a16c316.png)
+![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858884-9f1c881b-839c-44fc-8e5f-8f8d5a16c316.png)
 
 
 
@@ -138,7 +138,7 @@ In this screen you will select with up/down and next enter to define the pin to 
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858918-e7b73b74-93db-4f09-bb02-866010c9798a.png)
+![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858918-e7b73b74-93db-4f09-bb02-866010c9798a.png)
 
 
 
@@ -146,7 +146,7 @@ In this screen you will select with up/down and next enter to define the pin to 
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858941-7ce206c9-4bde-4e3b-8abf-2aad82749d5c.png)
+![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858941-7ce206c9-4bde-4e3b-8abf-2aad82749d5c.png)
 
 
 
@@ -154,7 +154,7 @@ In the options, select "Save and reboot to reconfigure pins", this option will l
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858970-ab6e6a5a-d5e3-4bd9-91c1-e77ffc67e110.png)
+![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858970-ab6e6a5a-d5e3-4bd9-91c1-e77ffc67e110.png)
 
 
 
@@ -207,7 +207,7 @@ Verify that the ports appeared by the ```ifconfig``` command, it should return t
 
 
 
-![image](https://user-images.githubusercontent.com/64169072/130859024-11600c1f-6dee-46b6-b276-d4448d212f22.png)
+![Verify_ifconfig](https://user-images.githubusercontent.com/64169072/130859024-11600c1f-6dee-46b6-b276-d4448d212f22.png)
 
 
 

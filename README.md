@@ -18,7 +18,7 @@ This mode can be found in the upper right corner of the screen, in the power mod
 
 
 
-![image5_9](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\image5_9.png)
+![image5_9](img\image5_9.png)
 
 
 
@@ -212,7 +212,7 @@ Verify that the ports appeared by the ```ifconfig``` command, it should return t
 
 
 
-![show_ifconfig](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\show_ifconfig.png)
+![show_ifconfig](img\show_ifconfig.png)
 
 
 

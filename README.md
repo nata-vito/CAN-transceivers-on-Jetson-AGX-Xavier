@@ -13,12 +13,12 @@
 ﻿Leave the board in "full" mode -> MODE 30W ALL
 
 This mode can be found in the upper right corner of the screen, in the power mode options, the image below shows where these options are.
-
+</br>
 
 <p align="center">
   <img width="460" height="300" src="/img/image5_9.png">
 </p>
-
+</br>
 
 To perform the installation and configuration of the CAN transceivers, you must enter root mode on the AGX Xavier board to perform the modifications with privileges. Root mode is accessed by the command:
 

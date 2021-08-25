@@ -69,9 +69,9 @@ The return from the command to be "okay".
 
 ## Installing Busybox
 
-﻿Install the busybox tool to configure the pinmux values, which is the pin reference on Xavier's bus. The installation is done by the command:
+Install the busybox tool to configure the pinmux values, which is the pin reference on Xavier's bus. The installation is done by the command:
 
-```﻿apt-get install busybox```﻿
+```apt-get install busybox```
 
 
 
@@ -122,7 +122,7 @@ The interface will be opened and you will see the screen below.
 
 
 
-![image (1)](image (1).png)
+![image](https://user-images.githubusercontent.com/64169072/130858841-db16dc0f-ca5d-4f0c-b529-36d161671113.png)
 
 
 
@@ -130,7 +130,7 @@ Use the up, down and enter arrows to navigate between options. Select "Configure
 
 
 
-![image (2)](image (2).png)
+![image](https://user-images.githubusercontent.com/64169072/130858884-9f1c881b-839c-44fc-8e5f-8f8d5a16c316.png)
 
 
 
@@ -138,7 +138,7 @@ In this screen you will select with up/down and next enter to define the pin to 
 
 
 
-![pins_marked](pins_marked.png)
+![image](https://user-images.githubusercontent.com/64169072/130858918-e7b73b74-93db-4f09-bb02-866010c9798a.png)
 
 
 
@@ -146,7 +146,7 @@ In this screen you will select with up/down and next enter to define the pin to 
 
 
 
-![verify_pins](verify_pins.png)
+![image](https://user-images.githubusercontent.com/64169072/130858941-7ce206c9-4bde-4e3b-8abf-2aad82749d5c.png)
 
 
 
@@ -154,7 +154,7 @@ In the options, select "Save and reboot to reconfigure pins", this option will l
 
 
 
-![options](options.png)
+![image](https://user-images.githubusercontent.com/64169072/130858970-ab6e6a5a-d5e3-4bd9-91c1-e77ffc67e110.png)
 
 
 
@@ -207,7 +207,7 @@ Verify that the ports appeared by the ```ifconfig``` command, it should return t
 
 
 
-![show_ifconfig](show_ifconfig.png)
+![image](https://user-images.githubusercontent.com/64169072/130859024-11600c1f-6dee-46b6-b276-d4448d212f22.png)
 
 
 

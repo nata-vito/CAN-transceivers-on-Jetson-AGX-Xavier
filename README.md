@@ -18,7 +18,7 @@ This mode can be found in the upper right corner of the screen, in the power mod
 
 
 
-![image5_9](image5_9.png)
+![image5_9](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3231/Tegra%20Linux%20Driver%20Package%20Development%20Guide/images/image5_9.png)
 
 
 

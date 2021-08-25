@@ -39,14 +39,15 @@ Confirm that the channels are not active with the ```ifconfig``` command, which 
 AGX Xavier's doors are referenced by the image below or access the [site](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/) to see the table in better quality.
 
 
-![image](https://user-images.githubusercontent.com/64169072/130858488-d2f366a3-a44a-443c-b1ae-5eb3a2405d32.png)
+![image](https://user-images.githubusercontent.com/64169072/130858565-2b0418d3-a567-4f01-9807-88119b6854ab.png) ![image](https://user-images.githubusercontent.com/64169072/130858618-78ae7f7e-3608-4fac-9adf-d0d78b2587d6.png)
+
 
 
 Connect the transceivers according to the image below, tx to tx and rx to rx. I know it gets confusing when I say tx to tx, but in short, connect CAN0_DIN to the rx of the transceiver and CAN0_DOUT to the tx of the transceiver. The can1 connections follow the same logic. VCC of the transceiver to the 3.3V pin of the board, as well as GND of the transceiver to GND of the board.
 
 
 
-![1](1.png)
+![image](https://user-images.githubusercontent.com/64169072/130858690-c08a59e9-c07c-4f21-9daa-5db7a2fffe88.png)
 
 
 
@@ -54,11 +55,11 @@ Check the status of the can-controllers by command:
 
 ``` cat /proc/device-tree/mttcan\@c310000/status```
 
-```﻿﻿@c310000 - endereço do can-controller 1```
+```@c310000 - endereço do can-controller 1```
 
-﻿```@c320000 - endereço do can-controller 2```
+```@c320000 - endereço do can-controller 2```
 
-The return from the command to be "okay".﻿﻿
+The return from the command to be "okay".
 
 
 

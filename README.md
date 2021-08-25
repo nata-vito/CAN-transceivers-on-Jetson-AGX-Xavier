@@ -1,11 +1,10 @@
+![Badge](https://img.shields.io/static/v1?label=Ubuntu&message=18.04&color=orange&style=%3CSTYLE%3E&logo=linux)    ![Badge](https://img.shields.io/static/v1?label=Nvidia&message=Jetson%20AGX%20Xavier&color=green&style=%3CSTYLE%3E&logo=Nvidia)    ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=Shell%20Script&color=red&style=%3CSTYLE%3E&logo=%3CLOGO%3E)      ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=CAN%20Protocol&color=yellow&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
+
 <h1 aling="center">CAN Transceivers on Jetson AGX Xavier</h1>
 
 <h1 aling="center">Description</h2>
 
 <p align="center">In this repository you will find a simplified method of installing CAN transceivers on the Jetson AGX Xavier board. After much research and study, I created these steps in the way I would have liked to find when I was doing the installation.</p>
-
-
-![Badge](https://img.shields.io/static/v1?label=Ubuntu&message=18.04&color=orange&style=%3CSTYLE%3E&logo=linux)    ![Badge](https://img.shields.io/static/v1?label=Nvidia&message=Jetson%20AGX%20Xavier&color=green&style=%3CSTYLE%3E&logo=Nvidia)    ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=Shell%20Script&color=red&style=%3CSTYLE%3E&logo=%3CLOGO%3E)      ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=CAN%20Protocol&color=yellow&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
 
 ------
 

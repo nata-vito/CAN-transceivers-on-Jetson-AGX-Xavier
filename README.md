@@ -8,8 +8,6 @@
 
 ------
 
-</p>
-
 ## Enabling CAN
 
 ﻿Leave the board in "full" mode -> MODE 30W ALL

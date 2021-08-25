@@ -13,8 +13,8 @@
 ﻿Leave the board in "full" mode -> MODE 30W ALL
 
 This mode can be found in the upper right corner of the screen, in the power mode options, the image below shows where these options are.
-</br>
 
+</br>
 <p align="center">
   <img width="460" height="300" src="/img/image5_9.png">
 </p>
@@ -40,7 +40,7 @@ Confirm that the channels are not active with the ```ifconfig``` command, which 
 
 AGX Xavier's doors are referenced by the image below or access the [site](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/) to see the table in better quality.
 
-
+</br>
 <p align="center">
   <img width="auto" height="auto" src="/img/image.png">
 </p>
@@ -50,8 +50,11 @@ AGX Xavier's doors are referenced by the image below or access the [site](https:
 Connect the transceivers according to the image below, tx to tx and rx to rx. I know it gets confusing when I say tx to tx, but in short, connect CAN0_DIN to the rx of the transceiver and CAN0_DOUT to the tx of the transceiver. The can1 connections follow the same logic. VCC of the transceiver to the 3.3V pin of the board, as well as GND of the transceiver to GND of the board.
 
 
-
-![CAN Transceivers conectors](https://user-images.githubusercontent.com/64169072/130858690-c08a59e9-c07c-4f21-9daa-5db7a2fffe88.png)
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/1.png">
+</p>
+</br>
 
 
 
@@ -124,42 +127,48 @@ The table can also be found from the documentation in [CAN (Controller Area Netw
 
 The interface will be opened and you will see the screen below.
 
-
-
-![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858841-db16dc0f-ca5d-4f0c-b529-36d161671113.png)
-
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/jetson-io.png">
+</p>
+</br>
 
 
 Use the up, down and enter arrows to navigate between options. Select "Configure 40-pin expansion header" to modify the pins. Check if the screen below was opened. ﻿﻿
 
-
-
-![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858884-9f1c881b-839c-44fc-8e5f-8f8d5a16c316.png)
-
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/mark_pin.png">
+</p>
+</br>
 
 
 In this screen you will select with up/down and next enter to define the pin to mark on can0 and can1 like the image below.
 
 
-
-![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858918-e7b73b74-93db-4f09-bb02-866010c9798a.png)
-
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/pins_marked.png">
+</p>
+</br>
 
 
 ﻿﻿Go back to the main screen with the back command, check if different options appear and if the CAN inputs and outputs on the bus are listed like the image below.
 
 
-
-![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858941-7ce206c9-4bde-4e3b-8abf-2aad82749d5c.png)
-
-
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/verify_pins.png">
+</p>
+</br>
 
 In the options, select "Save and reboot to reconfigure pins", this option will leave the pins pre-set every time the board is booted and will reboot the board.
 
-
-
-![Jetson-IO Tool](https://user-images.githubusercontent.com/64169072/130858970-ab6e6a5a-d5e3-4bd9-91c1-e77ffc67e110.png)
-
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/options.png">
+</p>
+</br>
 
 
 After the board is completely connected, perform the next steps....
@@ -210,9 +219,11 @@ To use the network, you need to manage the network. This management is done by t
 Verify that the ports appeared by the ```ifconfig``` command, it should return the CAN ports in the <UP, RUNNIG< NOARP> state. We can validate this by looking at the image below:
 
 
-
-![Verify_ifconfig](https://user-images.githubusercontent.com/64169072/130859024-11600c1f-6dee-46b6-b276-d4448d212f22.png)
-
+</br>
+<p align="center">
+  <img width="auto" height="auto" src="/img/show_ifconfig.png">
+</p>
+</br>
 
 
 ---

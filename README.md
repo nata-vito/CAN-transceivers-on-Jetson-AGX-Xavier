@@ -4,7 +4,7 @@
 
 In this repository you will find a simplified method of installing CAN transceivers on the Jetson AGX Xavier board. After much research and study, I created these steps in the way I would have liked to find when I was doing the installation.
 
-![Badge](https://img.shields.io/static/v1?label=Ubuntu&message=18.04&color=orange&style=%3CSTYLE%3E&logo=linux) ![Badge](https://img.shields.io/static/v1?label=Nvidia&message=Jetson%20AGX%20Xavier&color=green&style=%3CSTYLE%3E&logo=Nvidia) ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=Shell%20Script&color=red&style=%3CSTYLE%3E&logo=%3CLOGO%3E)![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=CAN%20Protocol&color=yellow&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
+![Badge](https://img.shields.io/static/v1?label=Ubuntu&message=18.04&color=orange&style=%3CSTYLE%3E&logo=linux)    ![Badge](https://img.shields.io/static/v1?label=Nvidia&message=Jetson%20AGX%20Xavier&color=green&style=%3CSTYLE%3E&logo=Nvidia)    ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=Shell%20Script&color=red&style=%3CSTYLE%3E&logo=%3CLOGO%3E)      ![Badge](https://img.shields.io/static/v1?label=Necessary%20Knowledget&message=CAN%20Protocol&color=yellow&style=%3CSTYLE%3E&logo=%3CLOGO%3E)
 
 ------
 
@@ -18,7 +18,7 @@ This mode can be found in the upper right corner of the screen, in the power mod
 
 
 
-![image5_9](img\image5_9.png)
+![image5_9](image5_9.png)
 
 
 
@@ -44,7 +44,7 @@ AGX Xavier's doors are referenced by the image below or access the [site](https:
 
 
 
-![image](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\image.png)
+![image](image.png)
 
 
 
@@ -52,7 +52,7 @@ Connect the transceivers according to the image below, tx to tx and rx to rx. I 
 
 
 
-![1](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\1.png)
+![1](1.png)
 
 
 
@@ -127,7 +127,7 @@ The interface will be opened and you will see the screen below.
 
 
 
-![image (1)](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\image (1).png)
+![image (1)](image (1).png)
 
 
 
@@ -135,7 +135,7 @@ Use the up, down and enter arrows to navigate between options. Select "Configure
 
 
 
-![image (2)](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\image (2).png)
+![image (2)](image (2).png)
 
 
 
@@ -143,7 +143,7 @@ In this screen you will select with up/down and next enter to define the pin to 
 
 
 
-![pins_marked](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\pins_marked.png)
+![pins_marked](pins_marked.png)
 
 
 
@@ -151,7 +151,7 @@ In this screen you will select with up/down and next enter to define the pin to 
 
 
 
-![verify_pins](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\verify_pins.png)
+![verify_pins](verify_pins.png)
 
 
 
@@ -159,7 +159,7 @@ In the options, select "Save and reboot to reconfigure pins", this option will l
 
 
 
-![options](C:\Users\Natanael Vitorino\Documents\CAN-transceivers-on-Jetson-AGX-Xaviar\img\options.png)
+![options](options.png)
 
 
 
@@ -212,7 +212,7 @@ Verify that the ports appeared by the ```ifconfig``` command, it should return t
 
 
 
-![show_ifconfig](img\show_ifconfig.png)
+![show_ifconfig](show_ifconfig.png)
 
 
 
@@ -254,15 +254,15 @@ Finally, to monitor, open another terminal and run the command and select the ch
 
 For more details, I recommend reading the documentation listed here, which are the references that I used to develop these steps.
 
-﻿﻿[CAN (Controller Area Network)](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra Linux Driver Package Development Guide/hw_setup_jetson_can.html)
+[CAN (Controller Area Network)](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra Linux Driver Package Development Guide/hw_setup_jetson_can.html)
 
 [NVIDIA Jetson AGX Xavier GPIO Header Pinout](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/)
 
-﻿[Pinmux Settings](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-325/index.html#page/Tegra Linux Driver Package Development Guide/mb1_platform_config_xavier.html#wwpID0E0240HA)
+[Pinmux Settings](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-325/index.html#page/Tegra Linux Driver Package Development Guide/mb1_platform_config_xavier.html#wwpID0E0240HA)
 
-﻿[Pinmux Forum](https://forums.developer.nvidia.com/t/change-boot-pinmux-settings-without-full-flash/170392)
+[Pinmux Forum](https://forums.developer.nvidia.com/t/change-boot-pinmux-settings-without-full-flash/170392)
 
-[﻿Jetson-IO Tool](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra Linux Driver Package Development Guide/hw_setup_jetson_io.html#wwpID0E0ZE0HA)
+[Jetson-IO Tool](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra Linux Driver Package Development Guide/hw_setup_jetson_io.html#wwpID0E0ZE0HA)
 
 
 

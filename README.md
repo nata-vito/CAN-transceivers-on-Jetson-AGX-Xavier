@@ -39,9 +39,7 @@ Confirm that the channels are not active with the ```ifconfig``` command, which 
 AGX Xavier's doors are referenced by the image below or access the [site](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/) to see the table in better quality.
 
 
-
-![image](https://drive.google.com/file/d/1OPfpKkDXtn9Qg85bX0eG8u9NgZXL8Utl/view?usp=sharing)
-
+![image](https://user-images.githubusercontent.com/64169072/130858488-d2f366a3-a44a-443c-b1ae-5eb3a2405d32.png)
 
 
 Connect the transceivers according to the image below, tx to tx and rx to rx. I know it gets confusing when I say tx to tx, but in short, connect CAN0_DIN to the rx of the transceiver and CAN0_DOUT to the tx of the transceiver. The can1 connections follow the same logic. VCC of the transceiver to the 3.3V pin of the board, as well as GND of the transceiver to GND of the board.

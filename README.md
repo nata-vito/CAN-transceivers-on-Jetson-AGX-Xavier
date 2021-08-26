@@ -34,7 +34,7 @@ The CAN Transceiver used was the sn65hvd230, its supply voltage is 3.3V. Learn m
 
 </br>
 <p align="center">
-  <img width="460" height="300" src="/img/3118960082_1.jpg">
+  <img width="auto" height="auto" src="/img/3118960082_1.jpg">
 </p>
 </br>
 

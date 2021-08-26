@@ -56,10 +56,10 @@ For the bus, we used two CAN Transceivers connected to the board and mounted on 
 </br>
 
 #### Connections
-CRX ------ Purple
-CTX ------ Green (CAN1) and Yellow (CAN0)
-Ground --- Black/Brown
-VCC ------ Bluen/Orange
+CRX ------ Purple</br>
+CTX ------ Green (CAN1) and Yellow (CAN0)</br>
+Ground --- Black/Brown</br>
+VCC ------ Bluen/Orange</br>
 
 ------
 

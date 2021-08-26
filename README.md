@@ -54,8 +54,13 @@ For the bus, we used two CAN Transceivers connected to the board and mounted on 
   </br>The CAN Bus is the last two bottom rows of the protoboard
 </p>
 </br>
-
-
+<p align="center">
+  Connections
+  </br>CRX ------ Purple
+  </br>CTX ------ Green (CAN1) and Yellow (CAN0)
+  </br>Ground --- Black/Brown
+  </br>VCC ------ Bluen/Orange
+</p>
 ------
 
 

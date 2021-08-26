@@ -51,6 +51,7 @@ For the bus, we used two CAN Transceivers connected to the board and mounted on 
 <p align="center">
   <img width="500" height="auto" src="/img/canbus.jpeg">
   </br>CAN Bus 
+  </br>The CAN Bus is the last two bottom rows of the protoboard
 </p>
 </br>
 

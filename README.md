@@ -30,6 +30,29 @@ To perform the installation and configuration of the CAN transceivers, you must 
 
 Confirm that the channels are not active with the ```ifconfig``` command, which will return all the set network ports of the card. At this point no can0 or can1 should appear.﻿﻿﻿
 
+The CAN Transceiver used was the sn65hvd230, its supply voltage is 3.3V. Learn more by reading the [datasheet](https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1629926939824&ref_url=https%253A%252F%252Fwww.google.com%252F).
+
+</br>
+<p align="center">
+  <img width="460" height="300" src="/img/3118960082_1.jpg">
+</p>
+</br>
+
+For the bus, we used two CAN Transceivers connected to the board and mounted on a protoboard as you can see in the pictures below. 
+
+</br>
+<p align="center">
+  <img width="500" height="500" src="/img/transceivers_protoboard.jpeg">
+  Transceivers 
+</p>
+</br>
+
+</br>
+<p align="center">
+  <img width="500" height="500" src="/img/canbus.jpeg">
+  CAN Bus 
+</p>
+</br>
 
 
 ------

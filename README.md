@@ -42,14 +42,14 @@ For the bus, we used two CAN Transceivers connected to the board and mounted on 
 
 </br>
 <p align="center">
-  <img width="auto" height="auto" src="/img/transceivers_protoboard.jpeg">
+  <img width="500" height="auto" src="/img/transceivers_protoboard.jpeg">
   </br>Transceivers 
 </p>
 </br>
 
 </br>
 <p align="center">
-  <img width="auto" height="auto" src="/img/canbus.jpeg">
+  <img width="500" height="auto" src="/img/canbus.jpeg">
   </br>CAN Bus 
 </p>
 </br>
